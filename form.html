@@ -1,10 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title> Form </title>
+    </head>
+        <body>
+            <article>
+                <header>
+                    <h1> Welcome to my page</h1>
+                </header>
+                <section>
+                    <!-- license form-->
+                    <form name="New LicenseForm">
+                        <!--every image must have src attribute-->
+                        <img src=""/>
+                        <!--every input must have type attribute-->
+                        <!--
+                        <input type="text"/> username
+                        <input type="button"/> -->
+                        <div>
+                            <label for="first name"> Applicants first name: </label>
+                            <!-- every input field must have type, id and name attributes-->
+                            <input type="text" id="first name" name="first name" placeholder="first name"/>
+                        </div>
+                        <!--to give space for line to line-->
+                        <br />
 
-</body>
+                        <div>
+                            <label for="last name"> Applicants last name: </label>
+                            <input type="text" id="last name" name="last name" placeholder="last name" />
+                        </div>
+                        <br/>
+                        <div>
+                            <label for="date"> Today's date </label>
+                            <input type="date" id="date" name="date" />
+                        </div>
+                        <br/>
+                        <!--Gender-->
+                        <div>
+                            <label for="Gender"> Applicant's gender </label>
+                            <div id="Gender">
+                                <label for="male"> Male </label>
+                                <input type="radio" id="male" name="Gender" value=" 'male' "/>
+
+                                <label for="female"> Female </label>
+                                <input type="radio" id="female" name="Gender" value=" 'Female' " />
+                            </div>
+                            <!--Senior citigen-->
+                            <div>
+                                <label for="senior Citizen"> Is applicant Senior Citizen </label>
+                                <input type="checkbox" id="Senior Citizen" name="Senior Citizen" />
+                            </div>
+                        </div>
+                        <!--sumbit button-->
+                        <button type="submit" id="submit" name="submit">
+                            <span>submit</span>
+                        </button>
+                        <button type="reset" id="reset" name="reset">
+                            <span>cancel</span>
+                        </button>
+                    </form>
+                </section>
+                <br/>
+
+                <!--footer of the page-->
+                <footer>
+                    I am at bottom
+                </footer>
+            </article>
+        </body>
+            <aside>  </aside>
 </html>
