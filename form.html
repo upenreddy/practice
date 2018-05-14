@@ -3,8 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <title> Form </title>
+
+        <!-- used for css styling-->
+        <!--this is internal style-->
+        <style>
+            body{
+                background-color: #eeeeee;
+            }
+        </style>
+        <!--this is external style-->
+        <link href="pr/styles.css" rel="stylesheet" />
     </head>
-        <body>
+
+         <!--this is inline/attribute style-->
+        <body> <!--style="background-color: #9086fd;"-->
             <article>
                 <header>
                     <h1> Welcome to my page</h1>
@@ -12,12 +24,8 @@
                 <section>
                     <!-- license form-->
                     <form name="New LicenseForm">
-                        <!--every image must have src attribute-->
-                        <img src=""/>
+                        
                         <!--every input must have type attribute-->
-                        <!--
-                        <input type="text"/> username
-                        <input type="button"/> -->
                         <div>
                             <label for="first name"> Applicants first name: </label>
                             <!-- every input field must have type, id and name attributes-->
