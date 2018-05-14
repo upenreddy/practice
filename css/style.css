@@ -1,0 +1,62 @@
+
+button[type="reset"]{
+	background: #e14228;
+	color: #fff;
+}
+button[type="submit"]{
+	background-color: #54f849;
+}
+
+#LastName, #FirstName{
+	background: #ff0000;
+}
+#FirstName{
+	border-radius: 10px;
+}
+
+
+
+
+/*
+#submit {
+	 background-color: #54f849;
+}
+#reset{
+	background-color: #e14228;
+}
+
+form {
+	border: 2px solid #999;
+}
+*/
+
+/*
+to convert inline element to block level element.
+label {
+	display: block;
+}
+/*to put width of the element as it takes.
+div {
+	display: inline block;
+}
+
+/*to convert block level to inline.
+div{
+	display: inline;
+}
+
+/* to display as table.
+div{
+	display: table;
+}
+
+/*to display as flex(as wish per browser) danger we dont use this type.
+label{
+	display: flex;
+}
+
+/*we dont display nothing.
+div{
+	display: none;
+}
+*/

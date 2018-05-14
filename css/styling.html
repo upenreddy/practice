@@ -2,9 +2,21 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title> Form </title>
+        <title> cssfile </title>
+
+        <!-- used for css styling-->
+        <!--this is internal style-->
+        <style>
+            body{
+                background-color: #cdc9fd;
+            }
+        </style>
+        <!--this is external style-->
+        <link href="style.css" rel="stylesheet" />
     </head>
-        <body>
+
+         <!--this is inline/attribute style-->
+        <body> <!--style="background-color: #9086fd;"-->
             <article>
                 <header>
                     <h1> Welcome to my page</h1>
@@ -12,23 +24,19 @@
                 <section>
                     <!-- license form-->
                     <form name="New LicenseForm">
-                        <!--every image must have src attribute-->
-                        <img src=""/>
+                        
                         <!--every input must have type attribute-->
-                        <!--
-                        <input type="text"/> username
-                        <input type="button"/> -->
                         <div>
-                            <label for="firstname"> Applicants firstname: </label>
+                            <label for="FirstName"> Applicants FirstName: </label>
                             <!-- every input field must have type, id and name attributes-->
-                            <input type="text" id="firstname" name="firstname" placeholder="firstname"/>
+                            <input type="text" id="FirstName" name="FirstName" placeholder="FirstName"/>
                         </div>
                         <!--to give space for line to line-->
                         <br />
 
                         <div>
-                            <label for="lastname"> Applicants lastname: </label>
-                            <input type="text" id="lastname" name="lastname" placeholder="lastname" />
+                            <label for="LastName"> Applicants LastName : </label>
+                            <input type="text" id="LastName" name="LastName" placeholder="LastName" />
                         </div>
                         <br/>
                         <div>
@@ -53,10 +61,10 @@
                             </div>
                         </div>
                         <!--sumbit button-->
-                        <button type="submit" id="submit" name="submit">
+                        <button type="submit" id="submit" name="submit" />
                             <span>submit</span>
                         </button>
-                        <button type="reset" id="reset" name="reset">
+                        <button type="reset" id="reset" name="reset" />
                             <span>cancel</span>
                         </button>
                     </form>
@@ -69,5 +77,5 @@
                 </footer>
             </article>
         </body>
-            <aside>  </aside>
+            
 </html>
