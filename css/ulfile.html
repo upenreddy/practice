@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>file </title>
+
+        <!-- used for css styling-->
+        <!--this is internal style-->
+        <style>
+            body{
+                background-color: #d77985;
+            }
+        </style>
+        <!--this is external style-->
+        <link href="FStyle.css" rel="stylesheet" />
+    </head>
+
+         <!--this is inline/attribute style-->
+        <body> <!--style="background-color: #9086fd;"-->
+            <article>
+                <header>
+                    <h1> Welcome to my page</h1>
+                </header>
+                <section>
+					<article>
+						<header>
+							<nav>
+							<ul>
+								<li>
+									<a href="https://www.google.com/maps">Home</a>
+								</li>
+								<li>
+									<a href="https://www.google.com/images">Contact Us</a>
+								</li>
+								<li>
+									<a href="https://www.google.com/shopping">Services</a>
+								</li>
+								<li>
+									<a href="https://www.google.com">About Us</a>
+								</li>
+							</ul>
+							</nav>
+						</header>
+						<section>
+							<form name="New LicenseForm">
+								<!--every input must have type attribute-->
+								<div class="contaainer">
+									<label for="FirstName"> Applicants FirstName: </label>
+									<!-- every input field must have type, id and name attributes-->
+									<input type="text" id="FirstName" name="FirstName" placeholder="FirstName"/>
+								</div>
+								<!--to give space for line to line-->
+								<br/>
+
+								<div class="contaainer">
+									<label for="LastName"> Applicants LastName : </label>
+									<input type="text" id="LastName" name="LastName" placeholder="LastName" />
+								</div>
+								<br/>
+								<div>
+									<label for="date"> Today's date </label>
+									<input type="date" id="date" name="date" />
+								</div>
+								<br/>
+								<!--Gender-->
+								<div>
+									<label for="Gender"> Applicant's gender </label>
+									<div id="Gender">
+										<label for="male"> Male </label>
+										<input type="radio" id="male" name="Gender" value=" 'male' "/>
+
+										<label for="female"> Female </label>
+										<input type="radio" id="female" name="Gender" value=" 'Female' " />
+									</div>
+									</div>
+									<br/>
+									<!--Senior citigen-->
+									<div>
+										<label for="senior Citizen"> Is applicant Senior Citizen </label>
+										<input type="checkbox" id="Senior Citizen" name="Senior Citizen" />
+									</div>
+									<div>
+										<!--sumbit button-->
+										<button type="submit" id="submit" name="submit" />
+										<span>submit</span>
+										</button>
+										<button type="reset" id="reset" name="reset" />
+										<span>cancel</span>
+										</button>
+									</div>
+							</form>
+						</section>
+						<footer></footer>
+					</article>
+                </section>
+                <br/>
+
+                <!--footer of the page-->
+                <footer>
+                    I am at bottom
+                </footer>
+            </article>
+        </body>
+            
+</html>
